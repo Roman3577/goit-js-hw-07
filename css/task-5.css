@@ -38,4 +38,7 @@ body {
                 border: none;
                
 }
+.change-color:hover {
+    background-color: #6c8cff;
+}
 
