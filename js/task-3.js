@@ -4,8 +4,5 @@ input.addEventListener("input", event => {
     const text = event.currentTarget.value.trim()
     if (text!=="") {
         span.textContent = event.currentTarget.value;
-    }
-    
-       
-    
+    } 
 });

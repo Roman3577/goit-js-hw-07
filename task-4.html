@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 4</title>
-    <link rel="stylesheet" href="./css/common.css" />
+    <!-- <link rel="stylesheet" href="./css/common.css" /> -->
+    <link rel="stylesheet" href="./css/task-4.css" />
   </head>
   <body>
     <p><a href="./index.html">Go back</a></p>
 
     <form class="login-form">
-      <label>
+      <ul class="list"><li class="item">
+      <label class="lable">
         Email
-        <input type="email" name="email" />
+        </li><li class="item-input">
+        <input class="input" type="email" name="email" />
       </label>
-      <label>
-        Password
-        <input type="password" name="password" />
+      </li>
+      <li class="item">
+      <label class="lable">
+        Password</li><li class="item-input">
+        <input class="input" type="password" name="password" />
       </label>
-      <button type="submit">Login</button>
+      </li>
+      <button class="btn" type="submit">Login</button>
     </form>
-
+</ul>
     <script src="./js/task-4.js" type="module"></script>
   </body>
 </html>
